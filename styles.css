@@ -1,0 +1,33 @@
+:root{
+    --secondary: #bfffaa;
+    --primary: #00ff00;
+}
+body{
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    background-color: var(--secondary);
+}
+
+.content{
+    margin: 0 auto;
+    margin-top: 20vh;
+    padding: 5%  ;
+    background-color: #ffffff;
+    width: 30%;
+    border-radius: 10px;
+}
+
+h1,h2,p,button{
+    color: var(--primary)
+}
+
+button{
+    border: none;
+    background: none;
+    padding: 5px;
+}
+button:hover{
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: var(--secondary);
+}
